@@ -1,0 +1,45 @@
+{
+  "name": "moodle-local_helloworld",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env webpack --mode development --progress --hide-modules",
+    "watch": "cross-env webpack --mode development --watch --hide-modules",
+    "build": "cross-env webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mdi/font": "^4.9.95",
+    "babel-preset-env": "^1.7.0",
+    "highcharts": "^9.2.2",
+    "highcharts-vue": "^1.4.0",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.2",
+    "vuetify": "^2.5.8",
+    "vuex": "^3.6.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.2.0",
+    "deepmerge": "^4.2.2",
+    "sass": "^1.32.13",
+    "sass-loader": "^12.1.0",
+    "vue-loader": "^15.9.8",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.1.0"
+  }
+}

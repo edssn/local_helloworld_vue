@@ -1,0 +1,4 @@
+/.idea
+.idea/
+/vue/node_modules/
+*.iml
